@@ -10,7 +10,8 @@ L'objectif de ce tutoriel est d'aller un peu plus loin dans l'utilisation de `Do
 
 ## Environnement
 
-Dans ce tutoriel, on utilisera une machine virtuelle GCP `f1-micro` (1 vCPU, 614 Mo) avec `Debian 10` et Docker installé (cf [Hello Docker](../hello/README.md)).
+Dans ce tutoriel, on utilisera une machine virtuelle GCP `f1-micro` (1 vCPU, 614 Mo) avec `Debian 10` mais n'importe quelle machine Linux sur laquelle vous avez les droits `root` devrait convenir.  
+On suppose `Docker` déjà installé (cf [Hello Docker](../hello/README.md))
 
 ## Docker ps
 

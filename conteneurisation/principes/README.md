@@ -26,7 +26,7 @@ La conteneurisation est une isolation applicative et logique. Il n'y a qu'un seu
 
 Il y a deux concepts importants à ne pas mélanger : `image` et `conteneur`.  
 Une `image` correspond à la définition de l'environnement.  
-Un `conteneur` correspond à un processus en cours d'exécution.
+Un `conteneur` correspond à un processus en cours d'exécution. Ce service a comme état initial celui défini dans une `image` mais vit ensuite sa vie (et sa mort).
 
 Une même `image` peut donc être à l'origine de nombreux `conteneur`s. On publie des images et on fait tourner des conteneurs.
 

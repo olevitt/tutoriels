@@ -101,4 +101,5 @@ curl http://localhost:5678
 
 ## Aller plus loin
 
-La suite logique à ce tutoriel est d'utiliser Docker : [Utilisation avancée de Docker](../../docker/utilisation).
+La suite logique à ce tutoriel est l'utilisation avancée de Docker : [Utilisation avancée de Docker](../avance).  
+Le tutoriel [Créer une image Docker](../creer-image) est un choix intéressant aussi.
