@@ -12,11 +12,11 @@ L'objectif de ce tutoriel est de prendre en main le moteur de conteneurisation `
 
 Docker est une technologie s'appuyant sur des technologies du noyau Linux. Il est donc naturel de l'installer et de l'utiliser sur des machines Linux. Pour Mac ou Windows, des solutions existent, notamment [Docker desktop](https://docs.docker.com/get-docker/).
 
-Dans ce tutoriel, on utilisera une machine virtuelle GCP `f1-micro` (1 vCPU, 614 Mo) avec `Debian 10` mais n'importe quelle machine Linux devrait convenir.
+Dans ce tutoriel, on utilisera une machine virtuelle GCP `f1-micro` (1 vCPU, 614 Mo) avec `Debian 10` mais n'importe quelle machine Linux sur laquelle vous avez les droits `root` devrait convenir.
 
 ## Installation
 
-L'installation est documentée ici : [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) et,plus particulièrement pour Debian ici : [https://docs.docker.com/engine/install/debian/](https://docs.docker.com/engine/install/debian/).
+L'installation est documentée ici : [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) et, plus particulièrement, pour Debian ici : [https://docs.docker.com/engine/install/debian/](https://docs.docker.com/engine/install/debian/).
 
 Les étapes de post-installation, disponibles [ici](https://docs.docker.com/engine/install/linux-postinstall/) sont optionnelles mais permettent d'accorder à des utilisateurs non `root` les permissions pour lancer Docker.  
 Attention : avoir le droit de lancer des conteneurs Docker est un droit très fort, souvent considéré comme équivalent à avoir les droits `root` sur la machine.
