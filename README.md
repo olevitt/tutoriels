@@ -1,34 +1,35 @@
-# La pause tuto 
+# La pause tuto
 
 Une pause dans le boulot, un petit tuto ?  
-Ces tutoriels ont pour but d'offrir une introduction aux technologies informatiques à l'état de l'art. Ils ont été construits pour être réalisables en moins de `15 minutes`.  
+Ces tutoriels ont pour but d'offrir une introduction aux technologies informatiques à l'état de l'art. Ils ont été construits pour être réalisables en moins de `15 minutes`.
 
 Les contributions (questions, corrections, compléments ...) sont les bienvenues, n'hésitez pas à créer une issue ou à ouvrir une pull request :+1:
 
-## Conteneurisation  
+## Conteneurisation
 
-* Principes de la conteneurisation  
+- [Principes de la conteneurisation](conteneurisation/principes)
 
-## Docker   
+## Docker
 
-* Hello Docker 
-* Ma première image Docker   
+- [Hello Docker](docker/hello)
+- [Utilisation Docker avancée](docker/avance)
+- Créer une image Docker
 
-## Cloud  
+## Cloud
 
-* [Hello Cloud, prise en main de GCP](hello-cloud)  :construction:
-* Ma première machine virtuelle dans le cloud 
+- [Hello Cloud, prise en main de GCP](hello-cloud) :construction:
+- Ma première machine virtuelle dans le cloud
 
-## Terraform  
+## Terraform
 
 ## Orchestration de conteneurs
 
-* Principes des orchestrateurs  
+- Principes des orchestrateurs
 
-## Kubernetes  
+## Kubernetes
 
-* Mon premier cluster Kubernetes  
-* Hello Kubernetes 
-* Mon premier déploiement Kubernetes  
+- Mon premier cluster Kubernetes
+- Hello Kubernetes
+- Mon premier déploiement Kubernetes
 
-## Helm  
+## Helm
