@@ -28,7 +28,7 @@ Il y a deux concepts importants à ne pas mélanger : `image` et `conteneur`.
 Une `image` correspond à la définition de l'environnement.  
 Un `conteneur` correspond à un processus en cours d'exécution.
 
-Une même `image` peut donc être à l'origine de nombreux conteneurs. On publie des images et on fait tourner des conteneurs.
+Une même `image` peut donc être à l'origine de nombreux `conteneur`s. On publie des images et on fait tourner des conteneurs.
 
 ## Avantages de la conteneurisation
 
@@ -44,4 +44,4 @@ Un aperçu des différentes technologies sous-jacentes est disponible ici : http
 
 ## Aller plus loin
 
-La suite logique à ce tutoriel est d'aller installer Docker : [../../docker/installation](Installation de docker).
+La suite logique à ce tutoriel est de prendre en main Docker : [Hello docker](../../docker/hello).
