@@ -11,7 +11,7 @@ Les contributions (questions, corrections, compléments ...) sont les bienvenues
 
 - [Hello Docker](docker/hello)
 - [Utilisation Docker avancée](docker/avance)
-- Créer une image Docker
+- [Créer une image Docker](docker/creer-image)
 
 ## Kubernetes
 

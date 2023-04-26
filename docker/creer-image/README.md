@@ -122,4 +122,13 @@ docker push monnginx
 
 Une image non préfixée est, par défaut, pushée vers le registry central : `dockerhub`. Ce registry est évidemment soumis à authentification, on va donc se manger un stop.
 
-## Aller plus loin
+Il existe un registre non authentifié ouvert à tous avec une durée de vie des images limitée à 24h : https://ttl.sh/
+
+On va donc renommer notre image (re-tag) et la pusher vers ce nouveau registre :
+
+```
+docker tag monnginx ttl.sh/lenomdevotrechoix:24h
+docker push ttl.sh/lenomdevotrechoix:24h
+```
+
+Félicitations ! Tout le monde peut maintenant profiter de votre image simplement en faisant `docker run ttl.sh/lenomdevotrechoix:24h`

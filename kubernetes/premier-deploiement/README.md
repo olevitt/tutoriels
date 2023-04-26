@@ -10,7 +10,7 @@
 
 Maintenant que notre cluster est en place et que l'on peut communiquer avec l'APIServer (`kubectl get nodes`), on va pouvoir déployer notre premier application !  
 On se propose de déployer [Podinfo](https://github.com/stefanprodan/podinfo), un serveur web très simple affichant une unique page.  
-A noter : il est tout à fait possible de remplacer Podinfo par n'importe quel autre image Docker dans toute la suite
+A noter : il est tout à fait possible de remplacer Podinfo par n'importe quel autre image Docker dans toute la suite. Par exemple pourquoi ne pas utiliser l'image de [Ma première image docker](../../docker/creer-image/)
 
 ## Préparatifs
 
