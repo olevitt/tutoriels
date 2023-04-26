@@ -44,4 +44,6 @@ Un aperçu des différentes technologies sous-jacentes est disponible ici : http
 
 ## Aller plus loin
 
+[![Une bonne vidéo](https://img.youtube.com/vi/0qotVMX-J5s/maxresdefault.jpg)](https://www.youtube.com/embed/0qotVMX-J5s)
+
 La suite logique à ce tutoriel est de prendre en main Docker : [Hello docker](../../docker/hello).
