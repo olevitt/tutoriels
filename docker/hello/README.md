@@ -6,20 +6,15 @@
 
 ## C'est quoi ?
 
-L'objectif de ce tutoriel est de prendre en main le moteur de conteneurisation `Docker`.
-
-## Environnement
-
-Docker est une technologie s'appuyant sur des technologies du noyau Linux. Il est donc naturel de l'installer et de l'utiliser sur des machines Linux. Pour Mac ou Windows, des solutions existent, notamment [Docker desktop](https://docs.docker.com/get-docker/).
-
-Dans ce tutoriel, on utilisera une machine virtuelle GCP `f1-micro` (1 vCPU, 614 Mo) avec `Debian 10` mais n'importe quelle machine Linux sur laquelle vous avez les droits `root` devrait convenir.
+L'objectif de ce tutoriel est de prendre en main le moteur de conteneurisation `Docker`.  
+On l'a déjà dit mais Docker, en tant que moteur de conteneurisation, n'est qu'un des multiples moteurs de conteneurisation disponible. Il en existe d'autres dont containerd, podman ... Docker a l'avantage de fournir une expérience utilisateur agréable.
 
 ## Installation
 
-L'installation est documentée ici : [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) et, plus particulièrement, pour Debian ici : [https://docs.docker.com/engine/install/debian/](https://docs.docker.com/engine/install/debian/).
+Il existe 2 grandes façons d'installer Docker :
 
-Les étapes de post-installation, disponibles [ici](https://docs.docker.com/engine/install/linux-postinstall/) sont optionnelles mais permettent d'accorder à des utilisateurs non `root` les permissions pour lancer Docker.  
-Attention : avoir le droit de lancer des conteneurs Docker est un droit très fort, souvent considéré comme équivalent à avoir les droits `root` sur la machine.
+- L'installation pure de l'engine : [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/#server). Adapté pour le cas des serveurs et uniquement sous linux.
+- L'installation de [Docker Desktop](https://docs.docker.com/engine/install/#desktop) qui offre en plus une interface graphique et fonctionne sous Linux, Windows et Mac.
 
 ## Hello Docker
 
@@ -29,7 +24,7 @@ Le `Hello world` Docker consiste à afficher Hello world depuis un processus iso
 docker run hello-world
 ```
 
-(note : il peut être nécessaire de préfixer les commandes par `sudo` pour les exécuter avec les droits root si vous n'avez pas suivi les étapes de post-installation précédentes).
+(note : interagir avec Docker nécessite des droits elevés (root) sur le système. Il peut donc être nécessaire, sous linux, de préfixer les commandes par `sudo` pour les exécuter avec les droits root. Il est aussi possible de donner les droits Docker à votre utilisateur en l'ajoutant au groupe Docker : https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
 
 Résultat :
 
