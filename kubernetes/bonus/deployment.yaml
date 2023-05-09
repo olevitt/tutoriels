@@ -19,3 +19,5 @@ spec:
               value: "admin@intech.info"
             - name: PGADMIN_DEFAULT_PASSWORD
               value: "admin"
+            - name: PGADMIN_CONFIG_ENHANCED_COOKIE_PROTECTION
+              value: "False"
