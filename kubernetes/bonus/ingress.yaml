@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: pgadmin
+  labels:
+    name: pgadmin
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: pgadmin.intech.insee.io
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: pgadmin
+                port:
+                  number: 80
