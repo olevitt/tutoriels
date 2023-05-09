@@ -11,9 +11,16 @@ spec:
       labels:
         app: postgres
     spec:
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: data-postgres
       containers:
         - name: postgres
           image: postgres
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: data
           env:
             - name: POSTGRES_PASSWORD
               value: gfdigfdgfdgreze
