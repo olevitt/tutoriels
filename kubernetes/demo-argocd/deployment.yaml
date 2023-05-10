@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-from-argocd
+spec:
+  selector:
+    matchLabels:
+      app: hello-from-argocd
+  template:
+    metadata:
+      labels:
+        app: hello-from-argocd
+    spec:
+      containers:
+        - name: hello-from-argocd
+          image: nginx
